@@ -1,0 +1,25 @@
+plugins {
+    id 'org.jetbrains.kotlin.jvm' version '1.6.10'
+    id 'java'
+}
+
+group 'here.lenrik'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+    maven {
+        name 'Mojang'
+        url "https://libraries.minecraft.net"
+    }
+}
+
+dependencies {
+    implementation "org.jetbrains.kotlin:kotlin-stdlib"
+    implementation 'org.jetbrains.kotlin:kotlin-serialization'
+    implementation 'com.mojang:brigadier:+'
+//    implementation 'io.ejekta:kambrik:3.0.0-1.18'
+}
+
+test {
+}
