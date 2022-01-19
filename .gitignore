@@ -1,0 +1,5 @@
+/.gradle/
+/build/
+/.idea/
+/exclude/
+/gradle/wrapper/gradle-wrapper.jar
